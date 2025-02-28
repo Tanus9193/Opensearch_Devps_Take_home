@@ -53,6 +53,8 @@ If somehow any error happens that mostly due to timeout, So we can reexecute
 
 terraform apply  -auto-approve
 
+The terraform show the output for to copy Load Balancer Endpoint, that further we can map with our domain to access our Opensearch Dashboard.
+
 
 ```
 
