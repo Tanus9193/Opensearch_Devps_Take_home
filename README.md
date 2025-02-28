@@ -14,8 +14,11 @@ The below dependicies should be installed on your machine to execute this terraf
 The terraform script will be deploy below resources.
 
 1: VPC ( With public private subnets)
+
 2: EKS Cluster with Nodes
+
 3: ALB Ingres Controller
+
 4: Kubernets deployments, secrets, Services, Ingress.
 
 Explanation:
@@ -49,6 +52,8 @@ Input Username and Password to use with Opensearch Cluster
 If somehow any error happens that mostly due to timeout, So we can reexecute 
 
 terraform apply  -auto-approve
+
+The terraform show the output for to copy Load Balancer Endpoint, that further we can map with our domain to access our Opensearch Dashboard.
 
 
 ```

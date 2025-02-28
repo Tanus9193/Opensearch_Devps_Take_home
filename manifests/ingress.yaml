@@ -15,7 +15,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: test1.bsiresdev.com  # Replace with your domain or use AWS ALB DNS
+    - host: test.com  # Replace with your domain or use AWS ALB DNS
       http:
         paths:
           - path: /
