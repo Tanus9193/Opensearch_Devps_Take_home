@@ -14,8 +14,11 @@ The below dependicies should be installed on your machine to execute this terraf
 The terraform script will be deploy below resources.
 
 1: VPC ( With public private subnets)
+
 2: EKS Cluster with Nodes
+
 3: ALB Ingres Controller
+
 4: Kubernets deployments, secrets, Services, Ingress.
 
 Explanation:
